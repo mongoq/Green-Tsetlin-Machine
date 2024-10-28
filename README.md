@@ -8,9 +8,9 @@ https://arxiv.org/abs/2405.04212
 https://green-tsetlin.readthedocs.io/en/latest/  
 https://github.com/ooki/green_tsetlin
 
-A Google Colab (Pro) notebook (.ipynb file) can be used to train and classify 28x28 pixel binary images.  
+A Google Colab (Pro) notebook (.ipynb file) can be used to train and classify MNIST 28x28 pixel binary images.  
 
-A standalone C-program (.c file) can be used to classify 28x28 pixel binary images.
+A standalone C-program (.c file) can be used to classify MNIST 28x28 pixel binary images.
 
 A small Python script "Pixel Painter" can be used to draw the digits 0-9 and save the resulting 28x28 pixel image either as a .pkl or .h file.
 
