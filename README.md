@@ -20,6 +20,7 @@ TODO:
 > Colab Notebook + Pixel Painter  
     Makefile + .h + .c + Explanation, so it can be compiled with standard pixel_data.h  
     Documentation Colab Notebook - minus Hyperparameter sweep + Upload / Download  
-    Size of .h file is result of number of clauses (!)  
+    Size of .h file is result of number of clauses (!)
     ESP32 compatibility ?  
-    FPGA Verilog / Verilator port with pixel painter add-on for Verilog array output
+    FPGA Verilog / Verilator port with pixel painter add-on for Verilog array output  
+    Export function for .h file is unique
