@@ -12,8 +12,6 @@ A Google Colab (Pro) notebook (.ipynb file) can be used to train and classify 28
 
 A small Python script "Pixel Painter" can be used to draw the digits 0-9 and save the resulting 28x28 pixel image either as a .pkl or .h file.
 
-A .h file (C-header) can be exported and used with a makefile to perform the inference using C-code only on a local computer.
-
 To run the Google Colab (Pro) Python script: Upload the .ipynb file of this repo at Google Colab (Pro) and a pixel_data.pkl image file (a digit 0-9) you drew with Pixel Painter.
 
 To run the inference with the C-backend: Download this repo and start the inference with "make predict" after you created a pixel_data.h file (a digit 0-9) with Pixel Painter.
