@@ -17,7 +17,7 @@ A .pkl (Pickle) file can be uploaded to the Google Colab (Pro) and classified by
 A .h file (C-header) can be exported and used with a makefile to perform the inference using C-code only on a local computer.
 
 TODO:  
-    Colab Notebook + Pixel Painter  
+> Colab Notebook + Pixel Painter  
     Makefile + .h + .c + Explanation, so it can be compiled with standard pixel_data.h  
     Documentation Colab Notebook - minus Hyperparameter sweep + Upload / Download  
     Size of .h file is result of number of clauses (!)  
