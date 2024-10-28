@@ -1,4 +1,4 @@
-# Green-Tsetlin-Machine
+# Green Tsetlin Machine
 Getting Sondre Glimsdal's Green Tsetlin Machine Framework to work "in under 10 minutes"
 
 This project tries to simplify the assembly and evaluation process of a Green Tsetlin Machine that can train and classify images of the MNIST dataset. 
