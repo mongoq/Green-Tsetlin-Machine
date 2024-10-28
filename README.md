@@ -22,3 +22,4 @@ TODO:
     Documentation Colab Notebook - minus Hyperparameter sweep + Upload / Download  
     Size of .h file is result of number of clauses (!)  
     ESP32 compatibility ?  
+    FPGA Verilog / Verilator port with pixel painter add-on for Verilog array output
