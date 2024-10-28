@@ -12,7 +12,7 @@ A Google Colab (Pro) notebook (.ipynb file) can be used to train and classify MN
 
 A standalone C-program (.c file) can be used to classify MNIST 28x28 pixel binary images.
 
-A small Python script "Pixel Painter" can be used to draw the digits 0-9 and save the resulting 28x28 pixel image either as a .pkl or .h file.
+A small Python script (pixel_painter.py can be used to draw the digits 0-9 and save the resulting 28x28 pixel image either as a .pkl or .h file.
 
 To run the Google Colab (Pro) Python script: Upload the .ipynb file of this repo at Google Colab (Pro) and a pixel_data.pkl image file (a digit 0-9) you drew with Pixel Painter.
 
