@@ -16,9 +16,9 @@ A .pkl (Pickle) file can be uploaded to the Google Colab (Pro) and classified by
 
 A .h file (C-header) can be exported and used with a makefile to perform the inference using C-code only on a local computer.
 
-To run the Google Colab (Pro) Python script: Upload the .ipynb file at Google Colab (Pro) and upload the pixel_data.pkl file you drew with Pixel Painter.
+To run the Google Colab (Pro) Python script: Upload the .ipynb file at Google Colab (Pro) and upload a pixel_data.pkl file (a digit 0-9) you drew with Pixel Painter.
 
-To run the inference with the C-backend: Download this repo and start the inference with "make predict" after you created a pixel_data.h file with Pixel Painter.
+To run the inference with the C-backend: Download this repo and start the inference with "make predict" after you created a pixel_data.h file (a digit 0-9) with Pixel Painter.
 
 TODO:  
 > Colab Notebook + Pixel Painter  
