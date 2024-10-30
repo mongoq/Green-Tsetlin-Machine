@@ -1,6 +1,6 @@
 # C-Code for inference
 
-1.) Either run a new training with the Jupyter Notebook and generate a new MNIST model - file 'trained_votes.h' or keep the existing file. 
+1.) Either run a new training with the Jupyter Notebook and generate a new MNIST model file 'trained_votes.h' or keep the existing file. 
 
 2.) Draw a new MIST figure 'pixel_data.h' with 'pixel_painter.py' or keep the existing 'pixel_data.h'.
 
@@ -12,3 +12,5 @@ TODO:
 > Minimize 'trained_votes.h' in size.
 >
 > Run this in Verilog (Verilator) - codebase looks rather small, no bloated Python inference libraries (!).
+>
+> Dissect 'trained_votes.h' and say something about 'explainability'.
