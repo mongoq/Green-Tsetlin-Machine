@@ -1,14 +1,14 @@
-# Compiler und Flags
+# Compiler and Flags
 CC = gcc
 CFLAGS = -Wall
 
-# Dateien und Ausgabedatei
+# Files and output
 TARGET = mnist_inference
 SRCS = main.c
 HEADERS = trained_votes_long.h pixel_data.h
 OBJS = $(SRCS:.c=.o)
 
-# Regeln
+# Rules
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
