@@ -1,6 +1,6 @@
 # C-Code for inference
 
-1.) Either run a new training with the Jupyter Notebook and generate new 'trained_votes.h' file or keep the existing file. 
+1.) Either run a new training with the Jupyter Notebook and generate a new MNIST model - file 'trained_votes.h' or keep the existing file. 
 
 2.) Draw a new MIST figure 'pixel_data.h' with 'pixel_painter.py' or keep the existing 'pixel_data.h'.
 
