@@ -8,4 +8,5 @@
 
 TODO: 
 > Run this on microcontrollers - ESP32
+>
 > Run this in Verilog (Verilator) - codebase looks rather small, no bloated Python inference libraries (!)
