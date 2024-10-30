@@ -13,4 +13,4 @@ TODO:
 >
 > Run this in Verilog (Verilator) - codebase looks rather small, no bloated Python inference libraries (!).
 >
-> Dissect 'trained_votes.h' and say something about 'explainability'.
+> Dissect 'trained_votes.h' and make a qualified statement  about 'explainability' (ASCII file 1.6MB in size).
