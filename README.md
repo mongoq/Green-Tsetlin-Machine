@@ -3,10 +3,13 @@ Getting Sondre Glimsdal's Green Tsetlin Machine Framework to work "in under 10 m
 
 This project tries to simplify the assembly and evaluation process of a Green Tsetlin Machine that can train and classify images of the MNIST dataset. 
 
-Sources:  
+Sources (Green Tsetlin Machine):  
 https://arxiv.org/abs/2405.04212  
 https://green-tsetlin.readthedocs.io/en/latest/  
 https://github.com/ooki/green_tsetlin
+
+Sources (MNIST dataset):
+https://botpenguin.com/glossary/mnist-dataset
 
 A Google Colab (Pro) notebook (.ipynb file) can be used to train and classify MNIST 28x28 pixel binary images.  
 
