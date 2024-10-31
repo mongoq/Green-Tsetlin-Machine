@@ -15,19 +15,16 @@ With this project you have:
 
 * A Google Colab (Pro) notebook (.ipynb file) that can be used to train and classify MNIST 28x28 pixel binary images.  
 
-* A standalone C-program (.c file) that can be used to classify MNIST 28x28 pixel binary images.
+  To run the Google Colab (Pro) notebook: Upload the .ipynb file of this repo at Google Colab (Pro) and a pixel_data.pkl image file (a digit 0-9) you drew with Pixel Painter.
 
-* A small Python script (pixel_painter.py) that can be used to draw the digits 0-9 and save the resulting 28x28 pixel image either as a Python Pickle (.pkl) or C-header (.h) file.
+* A standalone C-program (.c file for use with gcc) that can be used to classify MNIST 28x28 pixel binary images.
 
-To run the Google Colab (Pro) Python script: Upload the .ipynb file of this repo at Google Colab (Pro) and a pixel_data.pkl image file (a digit 0-9) you drew with Pixel Painter.
+  To run the inference with the C-backend: Download this repo and start the inference with "make predict" after you created a pixel_data.h file (a digit 0-9) with Pixel Painter.
 
-To run the inference with the C-backend: Download this repo and start the inference with "make predict" after you created a pixel_data.h file (a digit 0-9) with Pixel Painter.
+* A Python script called Pixel Painter can be used to draw the digits 0-9 and export the resulting 28x28 pixel image either as a Python Pickle (.pkl) or C-header (.h) file.
 
-TODO:  
-> Colab Notebook + Pixel Painter  
-    Makefile + .h + .c + Explanation, so it can be compiled with standard pixel_data.h  
-    Documentation Colab Notebook - minus Hyperparameter sweep + Upload / Download  
-    Size of .h file is result of number of clauses (!)
-    ESP32 compatibility ?  
-    FPGA Verilog / Verilator port with pixel painter add-on for Verilog array output  
-    Export function for .h file is unique
+TODO:
+- [ ] Try hyperparameter sweep
+- [ ] Figure out ESP32 microcontroller compatibility
+- [ ] Try C-code with only parsing the .h image, not compiling it every time again
+- [ ] Try to port this to FPGA Verilog (Verilator) with a pixel painter extension for Verilog array output  
