@@ -9,4 +9,4 @@ The 'pixel_data.h' file can be used with the C-Code; the 'pixel_data.pkl' file c
 ![Pixel_Painter](/Pixel_Painter/pixel_painter.png)
 
 TODO: 
-- [ ] Add Verilog array export.
+- [ ] Add Verilog array export
