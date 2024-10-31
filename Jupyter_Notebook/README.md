@@ -1,6 +1,8 @@
-# Google Colab (Pro) Jupyter Notebook
+# Google Colab (Pro) Jupyter Notebook 
 
 With this notebook you can train the MNIST dataset for use with a Tsetlin machine.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mongoq/Green-Tsetlin-Machine/blob/main/Jupyter_Notebook/green_tsetlin_mnist_github.ipynb)
 
 After running a training you can either: 
 
